@@ -1,0 +1,42 @@
+/*
+
+THIS IS FOR TOP.GG
+DISCORD BOT LIST
+DESCRPITION
+
+*/
+
+body {
+	background-color: #2c2f33;
+	font-family: Arial;
+	color: white;
+}
+
+.logo {
+	text-align: center;
+	text-transform: capitalize;
+}
+
+h2.about, h2.features, h2.howitworks {
+	border: solid orange;
+}
+
+p.howitworks {
+	border: solid purple;
+	width: 450px;
+}
+
+p.about, ul.features {
+	text-align: left;
+}
+
+#about, #features {
+	border: solid white;
+	display: inline-block;
+	width: 450px;
+}
+
+.commandlist th {
+	color: black;
+	background-color: #a8a8a8;
+}
