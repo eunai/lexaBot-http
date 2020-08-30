@@ -7,9 +7,9 @@ DESCRPITION
 */
 
 body {
-	background-color: #2c2f33;
+	background-color: #1d1e2a;
 	font-family: Arial, serif;
-	color: white;
+	color: #ccc;
 }
 
 .logo {
@@ -17,21 +17,51 @@ body {
 	text-transform: capitalize;
 }
 
-p.howitworks {
-	width: 600px;
-	text-align: left;
+img {
+	transition-property: transform;
+	transition-duration: 0.75s;
 }
 
-p.about, ul.features {
-	text-align: left;
+img:hover {
+	transform: rotate3d(1, -1, 1, 45deg)
+
 }
 
-#about, #features {
+
+
+#about, #features, #howitworks, .commandlist{
+	background-color: #14151f;
+	color: #ccc;
 	display: inline-block;
+	vertical-align: top;
 	width: 450px;
+	text-align: left;
+	border-radius: 25px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 20px;
+	margin: 10px;
+
+}
+
+#about h2, #features h2, #howitworks h2 {
+	text-align: center;
+}
+
+.commandlist {
+	width: 800px;
 }
 
 .commandlist th {
-	color: black;
-	background-color: #a8a8a8;
+	color: #29425d;
+	text-align: center;
+	background-color: #ccc;
+}
+
+.commandlist td:first-child {
+	color: #a88085;
+}
+
+.commandlist td:last-child {
+	color: #74857C;
 }
