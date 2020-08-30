@@ -29,7 +29,7 @@ img:hover {
 
 
 
-#about, #features, #howitworks, .commandlist{
+#about, #features, .commandlist{
 	background-color: #14151f;
 	color: #ccc;
 	display: inline-block;
@@ -44,12 +44,13 @@ img:hover {
 
 }
 
-#about h2, #features h2, #howitworks h2 {
+#about h2, #features h2{
 	text-align: center;
 }
 
 .commandlist {
 	width: 800px;
+	margin-top: 150px;
 }
 
 .commandlist th {
