@@ -3,8 +3,26 @@
 THIS IS FOR TOP.GG
 DISCORD BOT LIST
 DESCRPITION
-
 */
+
+#announcement {
+	display: block;
+	width: auto;
+}
+.newbot {
+	background-color: red;
+	color: white;
+	font-weight: bold;
+	padding-top: 15px;
+	padding-bottom: 1px;
+}
+
+.compatible {
+	background-color: red;
+	color: yellow;
+	font-weight: bold;
+	padding-bottom: 0px;
+}
 
 body {
 	background-color: #1d1e2a;
@@ -26,8 +44,6 @@ img:hover {
 	transform: rotate3d(1, -1, 1, 45deg)
 
 }
-
-
 
 #about, #features, .commandlist{
 	background-color: #14151f;
