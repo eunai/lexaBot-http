@@ -5,23 +5,19 @@ DISCORD BOT LIST
 DESCRPITION
 */
 
-#announcement {
+.newbot {
 	display: block;
 	width: auto;
-}
-.newbot {
 	background-color: red;
 	color: white;
 	font-weight: bold;
-	padding-top: 15px;
-	padding-bottom: 1px;
+	text-align: center;
 }
 
 .compatible {
 	background-color: red;
 	color: yellow;
 	font-weight: bold;
-	padding-bottom: 0px;
 }
 
 body {
@@ -81,4 +77,8 @@ img:hover {
 
 .commandlist td:last-child {
 	color: #74857C;
+}
+
+.commandlist tr:hover {
+	background-color: #232134;
 }
