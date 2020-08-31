@@ -2,7 +2,7 @@
 
 THIS IS FOR TOP.GG
 DISCORD BOT LIST
-DESCRPITION
+DESCRIPTION
 */
 
 .newbot {
@@ -11,6 +11,10 @@ DESCRPITION
 	background-color: red;
 	color: white;
 	font-weight: bold;
+	text-align: center;
+}
+
+.page {
 	text-align: center;
 }
 
@@ -31,7 +35,10 @@ body {
 	text-transform: capitalize;
 }
 
+
 img {
+	width: 100px;
+	height: 100px;
 	transition-property: transform;
 	transition-duration: 0.75s;
 }
