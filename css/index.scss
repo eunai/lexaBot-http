@@ -1,0 +1,95 @@
+/*
+
+THIS IS FOR TOP.GG
+DISCORD BOT LIST
+DESCRIPTION
+*/
+
+.newbot {
+  display: block;
+  width: auto;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+#announcement {
+  color: yellow;
+}
+
+.page {
+  text-align: center;
+}
+
+.compatible {
+  background-color: red;
+  color: yellow;
+  font-weight: bold;
+}
+
+body {
+  background-color: #1d1e2a;
+  font-family: Arial, serif;
+  color: #ccc;
+}
+
+.logo {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+
+img.logo {
+  width: 100px;
+  height: 100px;
+  transition-property: transform;
+  transition-duration: 0.75s;
+}
+
+img.logo:hover {
+  transform: rotate3d(1, -1, 1, 45deg)
+
+}
+
+#about, #features, .commandlist{
+  background-color: #14151f;
+  color: #ccc;
+  display: inline-block;
+  vertical-align: top;
+  width: 450px;
+  text-align: left;
+  border-radius: 25px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  margin: 10px;
+
+}
+
+#about h2, #features h2{
+  text-align: center;
+}
+
+.commandlist {
+  width: 800px;
+  margin-top: 150px;
+}
+
+.commandlist th {
+  color: #29425d;
+  text-align: center;
+  background-color: #ccc;
+}
+
+.commandlist td:first-child {
+  color: #a88085;
+}
+
+.commandlist td:last-child {
+  color: #74857C;
+}
+
+.commandlist tr:hover {
+  background-color: #232134;
+}
