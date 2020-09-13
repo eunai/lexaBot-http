@@ -40,14 +40,14 @@ body {
 }
 
 
-img {
+img.logo {
 	width: 100px;
 	height: 100px;
 	transition-property: transform;
 	transition-duration: 0.75s;
 }
 
-img:hover {
+img.logo:hover {
 	transform: rotate3d(1, -1, 1, 45deg)
 
 }
