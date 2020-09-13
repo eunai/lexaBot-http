@@ -5,9 +5,19 @@
   color: $link-color;
 }
 
+.discord-invite.btn-primary{
+  background-color: #343a40;
+  border-color: #343A40
+}
+
 .navbar-brand:hover {
   $link-color: #88a1ac;
   color: $link-color;
+}
+
+.discord-invite.btn-primary:hover{
+  background-color: #4b535b;
+  border-color: #4b535b
 }
 
 img.logo {
