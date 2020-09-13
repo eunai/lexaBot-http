@@ -1,0 +1,34 @@
+.lexa-page {
+  font-family: "Inconsolata", monospace, Arial;
+}
+
+.navbar-brand {
+  color: #a6cdd7;
+}
+
+.discord-invite.btn-primary {
+  background-color: #343a40;
+  border-color: #343A40;
+}
+
+.navbar-brand:hover {
+  color: #88a1ac;
+}
+
+.discord-invite.btn-primary:hover {
+  background-color: #4b535b;
+  border-color: #4b535b;
+}
+
+img.logo {
+  width: 100px;
+  height: 100px;
+  transition-property: transform;
+  transition-duration: 0.75s;
+}
+
+img.logo:hover {
+  transform: rotate3d(1, -1, 1, 45deg);
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="54071c46-82e7-47ec-8994-7b43ded5eafa" name="Default Changelist" comment="Cleaned up code - added logo and transform effect&#10;Added table for commands list&#10;Fixed centering for various devices&#10;Added popper.js&#10;Added buttons and alert for discord, support server, top.gg, and future bot update">
+      <change afterPath="$PROJECT_DIR$/old data/table commandlist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bootstrap Test/color/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Bootstrap Test/color/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bootstrap Test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Bootstrap Test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bootstrap Test/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bootstrap Test/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hT0foFkDKrtKCOXKyCghJwRU2L" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\eunai\WebstormProjects\chroma-bot-site\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\eunai\WebstormProjects\chroma-bot-site\css" />
+      <recent name="C:\Users\eunai\WebstormProjects\chroma-bot-site" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54071c46-82e7-47ec-8994-7b43ded5eafa" name="Default Changelist" comment="" />
+      <created>1600019880862</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600019880862</updated>
+      <workItem from="1600019882033" duration="13556000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added [logo] class to the logo image tag">
+      <created>1600020327286</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600020327286</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Changed [logo] class to the end of img.logo {} &amp; img.logo:hover {}">
+      <created>1600020436951</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600020436951</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Created css folder&#10; -&gt; Created sass file">
+      <created>1600020827760</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600020827760</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Deleted page2.html &amp; stylespage2.css. Don't need.">
+      <created>1600020847017</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600020847017</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Imported v5 bootstrap files&#10;&#10;Updated head tag&#10;&#10;Using sass for my css file">
+      <created>1600021763936</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600021763936</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Cleaned up code - added logo and transform effect&#10;Added table for commands list&#10;Fixed centering for various devices&#10;Added popper.js&#10;Added buttons and alert for discord, support server, top.gg, and future bot update">
+      <created>1600030864320</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1600030864320</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added [logo] class to the logo image tag" />
+    <MESSAGE value="Changed [logo] class to the end of img.logo {} &amp; img.logo:hover {}" />
+    <MESSAGE value="Created css folder&#10; -&gt; Created sass file" />
+    <MESSAGE value="Deleted page2.html &amp; stylespage2.css. Don't need." />
+    <MESSAGE value="Imported v5 bootstrap files&#10;&#10;Updated head tag&#10;&#10;Using sass for my css file" />
+    <MESSAGE value="Cleaned up code - added logo and transform effect&#10;Added table for commands list&#10;Fixed centering for various devices&#10;Added popper.js&#10;Added buttons and alert for discord, support server, and top.gg" />
+    <MESSAGE value="Cleaned up code - added logo and transform effect&#10;Added table for commands list&#10;Fixed centering for various devices&#10;Added popper.js&#10;Added buttons and alert for discord, support server, top.gg, and future bot update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up code - added logo and transform effect&#10;Added table for commands list&#10;Fixed centering for various devices&#10;Added popper.js&#10;Added buttons and alert for discord, support server, top.gg, and future bot update" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="375" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600021108896">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="375" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1600021108896" />
+    <state x="601" y="292" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1600020595623">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="601" y="292" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1600020595623" />
+    <state x="788" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600030798720">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="788" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1600030798720" />
+    <state x="627" y="303" key="EditFileWatcherDialog" timestamp="1600020765167">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="627" y="303" key="EditFileWatcherDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1600020765167" />
+    <state x="461" y="170" key="SettingsEditor" timestamp="1600021145330">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="170" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1600021145330" />
+    <state x="807" y="431" key="VCS.ChangelistChooser" timestamp="1600020255971">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="807" y="431" key="VCS.ChangelistChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1600020255971" />
+  </component>
+</project>
