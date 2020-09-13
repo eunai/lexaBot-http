@@ -19,13 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54071c46-82e7-47ec-8994-7b43ded5eafa" name="Default Changelist" comment="Cleaned up code - added logo and transform effect&#10;Added table for commands list&#10;Fixed centering for various devices&#10;Added popper.js&#10;Added buttons and alert for discord, support server, top.gg, and future bot update">
+    <list default="true" id="54071c46-82e7-47ec-8994-7b43ded5eafa" name="Default Changelist" comment="bootstrap css/js">
       <change afterPath="$PROJECT_DIR$/old data/table commandlist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bootstrap Test/color/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Bootstrap Test/color/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bootstrap Test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Bootstrap Test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bootstrap Test/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bootstrap Test/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600019880862</updated>
-      <workItem from="1600019882033" duration="13556000" />
+      <workItem from="1600019882033" duration="13955000" />
     </task>
     <task id="LOCAL-00001" summary="Added [logo] class to the logo image tag">
       <created>1600020327286</created>
@@ -121,7 +117,28 @@
       <option name="project" value="LOCAL" />
       <updated>1600030864320</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added a button to show alert instead of on by default&#10;Cleaned up some more">
+      <created>1600033559634</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1600033559634</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added a discord svg file for button">
+      <created>1600033667239</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1600033667239</updated>
+    </task>
+    <task id="LOCAL-00009" summary="bootstrap css/js">
+      <created>1600033794526</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1600033794526</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,7 +163,10 @@
     <MESSAGE value="Imported v5 bootstrap files&#10;&#10;Updated head tag&#10;&#10;Using sass for my css file" />
     <MESSAGE value="Cleaned up code - added logo and transform effect&#10;Added table for commands list&#10;Fixed centering for various devices&#10;Added popper.js&#10;Added buttons and alert for discord, support server, and top.gg" />
     <MESSAGE value="Cleaned up code - added logo and transform effect&#10;Added table for commands list&#10;Fixed centering for various devices&#10;Added popper.js&#10;Added buttons and alert for discord, support server, top.gg, and future bot update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up code - added logo and transform effect&#10;Added table for commands list&#10;Fixed centering for various devices&#10;Added popper.js&#10;Added buttons and alert for discord, support server, top.gg, and future bot update" />
+    <MESSAGE value="Added a button to show alert instead of on by default&#10;Cleaned up some more" />
+    <MESSAGE value="Added a discord svg file for button" />
+    <MESSAGE value="bootstrap css/js" />
+    <option name="LAST_COMMIT_MESSAGE" value="bootstrap css/js" />
   </component>
   <component name="WindowStateProjectService">
     <state x="375" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600021108896">
@@ -173,5 +193,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="807" y="431" key="VCS.ChangelistChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1600020255971" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1600033863849">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1600033863849" />
   </component>
 </project>
