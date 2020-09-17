@@ -22,11 +22,11 @@
 
 <nav class="nav justify-content-center">
   <a href="#" class="navbar-brand">
-    <img class="logo" src="images/LexaLogo.gif" width="250" height="250" alt="A spinning logo for Lexa bot" loading="lazy"></a>
+    <img class="logo" src="images/LexaLogo.gif" width="250" height="250" alt="A spinning logo for Lexa bot" loading="lazy" id="navbar-brand-image"></a>
 </nav>
 
 <nav class="nav justify-content-center">
-  <a href="#" class="navbar-brand"><h1 class="display-3">Lexa</h1></a>
+  <a href="#" class="navbar-brand" id="navbar-brand-logo"><h1 class="display-3">Lexa</h1></a>
 </nav>
 <!--
 
@@ -60,10 +60,10 @@
                                able to limit who can use the bot by setting a designated role.</p>
         </div>
         <div class="card-footer text-center">
-          <a class="btn btn-primary discord-invite btn-lg" href="https://discord.com/oauth2/authorize?client_id=594323388705538069&scope=bot&permissions=8" role="button">
+          <a class="btn btn-primary discord-invite btn-lg" href="https://discord.com/oauth2/authorize?client_id=594323388705538069&scope=bot&permissions=8" role="button" id="discord-bot-invite">
             <img src="images/discord-logo.svg" style="margin-inline-end: 15px;">
             Invite Bot</a>
-          <a class="btn btn-primary discord-invite btn-lg" href="#lexa-alert" role="button" aria-label="news update" data-toggle="collapse" style="margin-inline-end: 15px;">
+          <a class="btn btn-primary discord-invite btn-lg" href="#lexa-alert" role="button" aria-label="news update" data-toggle="collapse" style="margin-inline-end: 15px;" id="discord-bot-notice">
             ! Notice
           </a>
 
@@ -84,7 +84,7 @@
               <li> Simple Permission Manager (limit who can use Lexa)</li>
               <li>Default Join Role</li>
               <li>Assign a Designated Channel</li>
-              <li><a href="https://discord.gg/bNEmTVQ" class="link-light" alt="Invite Link to Support Channel">Discord Support Channel</a></li>
+              <li><a href="https://discord.gg/bNEmTVQ" class="link-light" alt="Invite Link to Support Channel" id="discord-bot-support">Discord Support Channel</a></li>
             </ul>
           </div>
         </div>
@@ -98,7 +98,7 @@
       <div class="bg-dark text-light m-auto" style="min-width: 300px; max-width: 1000px; min-height: 350px;">
 
         <table class="table table-striped table-dark table-hover table-bordered table-rsm">
-          <caption class="table-dark text-center pb-3">
+          <caption class="table-dark text-center pb-3" id="discord-bot-topgg">
             <a href="https://top.gg/bot/594323388705538069"><img src="https://top.gg/api/widget/status/594323388705538069.svg" alt="Lexa Bot Status"></a>
             <a href="https://top.gg/bot/594323388705538069"><img src="https://top.gg/api/widget/servers/594323388705538069.svg?noavatar=true" alt="Servers using Lexa"></a>
             <a href="https://top.gg/bot/594323388705538069"><img src="https://top.gg/api/widget/owner/594323388705538069.svg?noavatar=true" alt="Owner of Lexa bot"></a>
