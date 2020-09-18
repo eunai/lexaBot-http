@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54071c46-82e7-47ec-8994-7b43ded5eafa" name="Default Changelist" comment="Deleted table commandlist.html">
+    <list default="true" id="54071c46-82e7-47ec-8994-7b43ded5eafa" name="Default Changelist" comment="Added IDs to links for Google Analytics">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +52,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.HTML" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -74,7 +73,18 @@
       <option name="presentableId" value="Default" />
       <updated>1600019880862</updated>
       <workItem from="1600019882033" duration="15504000" />
-      <workItem from="1600037672134" duration="48000" />
+      <workItem from="1600037672134" duration="83000" />
+      <workItem from="1600039589465" duration="282000" />
+      <workItem from="1600040002882" duration="1000" />
+      <workItem from="1600052357241" duration="347000" />
+      <workItem from="1600052776780" duration="1544000" />
+      <workItem from="1600102829535" duration="354000" />
+      <workItem from="1600107961519" duration="43000" />
+      <workItem from="1600108266851" duration="1381000" />
+      <workItem from="1600130751450" duration="695000" />
+      <workItem from="1600365709414" duration="967000" />
+      <workItem from="1600423429314" duration="1076000" />
+      <workItem from="1600432338071" duration="82000" />
     </task>
     <task id="LOCAL-00001" summary="Added [logo] class to the logo image tag">
       <created>1600020327286</created>
@@ -153,7 +163,28 @@
       <option name="project" value="LOCAL" />
       <updated>1600034019066</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Removed logo link to top.gg to avoid conflict with iframe">
+      <created>1600037746822</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1600037746822</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added Google Analytics gtag.js to header">
+      <created>1600365760446</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1600365760446</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added IDs to links for Google Analytics">
+      <created>1600366196634</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1600366196634</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +215,10 @@
     <MESSAGE value="bootstrap css/js" />
     <MESSAGE value="Updated icon source to images/discord-logo.svg" />
     <MESSAGE value="Deleted table commandlist.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deleted table commandlist.html" />
+    <MESSAGE value="Removed logo link to top.gg to avoid conflict with iframe" />
+    <MESSAGE value="Added Google Analytics gtag.js to header" />
+    <MESSAGE value="Added IDs to links for Google Analytics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added IDs to links for Google Analytics" />
   </component>
   <component name="WindowStateProjectService">
     <state x="375" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600021108896">
@@ -199,21 +233,25 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="788" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1600030798720" />
+    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog" timestamp="1600366684722">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1600366684722" />
     <state x="627" y="303" key="EditFileWatcherDialog" timestamp="1600020765167">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="627" y="303" key="EditFileWatcherDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1600020765167" />
-    <state x="461" y="170" key="SettingsEditor" timestamp="1600021145330">
+    <state x="745" y="127" width="998" height="860" key="SettingsEditor" timestamp="1600131315116">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="461" y="170" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1600021145330" />
+    <state x="745" y="127" width="998" height="860" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1600131315116" />
     <state x="807" y="431" key="VCS.ChangelistChooser" timestamp="1600020255971">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="807" y="431" key="VCS.ChangelistChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1600020255971" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1600034031870">
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1600366233058">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1600034031870" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1600366233058" />
   </component>
 </project>
