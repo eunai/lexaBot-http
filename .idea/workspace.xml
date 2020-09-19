@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54071c46-82e7-47ec-8994-7b43ded5eafa" name="Default Changelist" comment="Added IDs to links for Google Analytics">
+    <list default="true" id="54071c46-82e7-47ec-8994-7b43ded5eafa" name="Default Changelist" comment="Fixing up cards">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +84,8 @@
       <workItem from="1600130751450" duration="695000" />
       <workItem from="1600365709414" duration="967000" />
       <workItem from="1600423429314" duration="1076000" />
-      <workItem from="1600432338071" duration="82000" />
+      <workItem from="1600432338071" duration="136000" />
+      <workItem from="1600480279923" duration="10000" />
     </task>
     <task id="LOCAL-00001" summary="Added [logo] class to the logo image tag">
       <created>1600020327286</created>
@@ -184,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600366196634</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Fixing up cards">
+      <created>1600432465937</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1600432465937</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +226,8 @@
     <MESSAGE value="Removed logo link to top.gg to avoid conflict with iframe" />
     <MESSAGE value="Added Google Analytics gtag.js to header" />
     <MESSAGE value="Added IDs to links for Google Analytics" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added IDs to links for Google Analytics" />
+    <MESSAGE value="Fixing up cards" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing up cards" />
   </component>
   <component name="WindowStateProjectService">
     <state x="375" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600021108896">
@@ -249,9 +258,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="807" y="431" key="VCS.ChangelistChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1600020255971" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1600366233058">
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1600432467637">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1600366233058" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1600432467637" />
   </component>
 </project>
