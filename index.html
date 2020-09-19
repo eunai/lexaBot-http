@@ -12,11 +12,15 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178271061-1"></script>
   <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
 
-      gtag('config', 'UA-178271061-1');
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'UA-178271061-1');
   </script>
 
 </head>
@@ -58,26 +62,25 @@
       <div class="card bg-dark text-light m-auto" style="min-width: 200px; max-width: 500px; min-height: 250px;">
         <h4 class="card-header text-center">About Lexa</h4>
         <div class="card-body">
-          <p class="card-text">Lexa color bot allows a user to customize their individual role color. Lexa color bot was written in Python and still being worked on. You're
+          <p class="card-text">Lexa color bot allows a user to customize their individual role color. Lexa color bot was written in Python and still being
+                               worked on. You're
                                able to limit who can use the bot by setting a designated role.</p>
         </div>
         <div class="card-footer text-center">
           <a class="btn btn-primary discord-invite btn-lg" href="https://discord.com/oauth2/authorize?client_id=594323388705538069&scope=bot&permissions=8" role="button" id="discord-bot-invite" style="margin-inline-end: 15px; width: 178px; height: 51px">
-            <img src="images/discord-logo.svg" alt="Discord Logo">
-            Invite Bot</a>
-          <a class="btn btn-primary discord-invite btn-lg" href="#lexa-alert" role="button" aria-label="news update" data-toggle="collapse" style="margin-inline-end: 15px; width: 178px; height: 51px" id="discord-bot-notice">
-            ! Notice
-          </a>
+            <img src="images/discord-logo.svg" alt="Discord Logo" style="width: 35px; height: 35px;"> Invite Bot</a>
+          <a class="btn btn-primary discord-invite btn-lg" href="#lexa-alert" role="button" aria-label="news update" data-toggle="collapse" style="margin-inline-end: 15px; width: 178px; height: 51px;" id="discord-bot-notice">
+            <img src="images/info.svg" alt="Information Notice" style="width: 35px; height: 35px; fill:#FFF"> Notice</a>
 
         </div>
       </div>
     </div>
 
-<!--
+    <!--
 
-TODO Finish cards
+    TODO Finish cards
 
--->
+    -->
 
 
     <div class="col-sm-6 col-md-6 col-lg-6">
