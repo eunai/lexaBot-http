@@ -1,4 +1,4 @@
-# chroma-website
+# Lexa Bot Website
 
 Started learning about HTML and CSS back on August  20, 2020.
 
