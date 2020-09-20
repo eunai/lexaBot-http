@@ -21,6 +21,19 @@ Slowly learning Javascript as well.
 
 I'm going to be continuously updating as well as learning new things to implement, replace, and/or improve.
 
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<!-- CONTACT -->
+## Contact
+
+
+
+Francis - [@retiredbarista](https://twitter.com/retiredbarista) - [JetBrains Academy](https://hyperskill.org/profile/59115237)
+
+
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 * [HTML Dog 🐶](https://htmldog.com/guides/)
