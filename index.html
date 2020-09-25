@@ -4,10 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Title</title>
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <script src="js/bootstrap.bundle.js"></script>
+  <link rel="stylesheet" href="src/css/bootstrap.css">
+  <script src="src/js/bootstrap.bundle.js"></script>
   <script src="index.js"></script>
-
+  <link rel="stylesheet" href="src/css/index.css">
 </head>
 
 <body class="bg-dark">
@@ -15,7 +15,7 @@
 <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
     <a href="#" class="navbar-brand">
-      <img src="images/lexalogo.gif" alt="" style="width: 3rem; height: 3rem;">
+      <img src="img/lexa-logo.gif" alt="" style="width: 3rem; height: 3rem;">
       Lexa
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,9 +25,21 @@
       <div class="navbar-nav">
         <a class="nav-link active" aria-current="page" href="#">Home</a>
         <a href="#discord-invite-modal" class="nav-link" data-toggle="modal">Invite</a>
-        <a href="https://discord.gg/bNEmTVQ/" class="nav-link" aria-disabled="true">Support</a>
         <a href="#" class="nav-link disabled" aria-disabled="true">About</a>
         <a href="#" class="nav-link disabled" aria-disabled="true">Color</a>
+        <!--        <a href="https://discord.gg/bNEmTVQ/" class="nav-link" aria-disabled="true">Support</a>-->
+
+        <!--          DROPDOWN          -->
+        <div class="nav-item dropdown">
+          <div class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">Support</div>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="https://discord.gg/bNEmTVQ/">Discord Support Server</a>
+            <!--            <hr class="dropdown-divider">-->
+            <a class="dropdown-item" href="https://top.gg/bot/594323388705538069/">Top.gg</a>
+          </div>
+          <!--  END -->
+
+        </div>
       </div>
     </div>
   </div>
@@ -40,11 +52,86 @@
   <p class="lead"> Lexa color bot allows a user to customize their individual role color.</p>
   <!--  <p> Lexa color bot was written in Python and still being worked on. You're able to limit who can use the bot by setting a designated role.</p>-->
   <p class="text-muted text-black-50"><sup>*</sup>A new revision of Lexa color bot is in the works to make it multi-purpose</p>
-  <a href="#discord-invite-modal" data-toggle="modal" class="btn btn-dark btn"><img src="images/discord-logo.svg" alt="discord-logo" style="width: 3rem; height: 2rem;">Invite</a>
+  <a href="#discord-invite-modal" data-toggle="modal" class="btn btn-dark btn"><img src="img/discord-logo.svg" alt="discord-logo" style="width: 3rem; height: 2rem;">Invite</a>
 </div>
+<!--      END     -->
+
 
 <!--                                              MAIN                                              -->
+<div class="col">
+  <div class="card bg-secondary text-light m-auto" style="min-width: 200px; max-width: 500px; min-height: 250px;">
+    <h4 class="card-header text-center">Features</h4>
+    <div class="card-body">
+      <div class="card-text">
+        <ul>
+          <li>Custom Colors (hex and color names supported)</li>
+          <li> Random Colors</li>
+          <li> Change Prefix (default prefix: %)</li>
+          <li> Simple Permission Manager (limit who can use Lexa)</li>
+          <li>Default Join Role</li>
+          <li>Assign a Designated Channel</li>
+          <li><a href="https://discord.gg/bNEmTVQ" class="link-light" id="discord-bot-support">Discord Support Channel</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
+<div class="col pt-5">
+  <div class="bg-dark text-light m-auto" style="min-width: 300px; max-width: 1000px; min-height: 350px;">
+
+    <table class="table table-striped table-dark table-hover table-bordered table-rsm">
+      <caption class="table-dark text-center pb-3" id="discord-bot-topgg">
+        <a href="https://top.gg/bot/594323388705538069"><img src="https://top.gg/api/widget/status/594323388705538069.svg" alt="Lexa Bot Status"></a>
+        <a href="https://top.gg/bot/594323388705538069"><img src="https://top.gg/api/widget/servers/594323388705538069.svg?noavatar=true" alt="Servers using Lexa"></a>
+        <a href="https://top.gg/bot/594323388705538069"><img src="https://top.gg/api/widget/owner/594323388705538069.svg?noavatar=true" alt="Owner of Lexa bot"></a>
+      </caption>
+      <thead>
+      <th scope="col">Command</th>
+      <th scope="col">Description</th>
+      </thead>
+      <tbody>
+      <tr>
+        <td scope="row">%change [hexcode]</td>
+        <td>Changes to random color. Provide hex color code OR color name for specific color.</td>
+      </tr>
+      <tr>
+        <td scope="row">%remove</td>
+        <td>Removes your color role, if you have one</td>
+      </tr>
+      <tr>
+        <td scope="row">%prefix [prefix]</td>
+        <td>Changes this servers command prefix (Admins Only)</td>
+      </tr>
+      <tr>
+        <td scope="row">%set_channel [channel mention]</td>
+        <td>Set channel to listen to commands in. (set to None to reset)</td>
+      </tr>
+      <tr>
+        <td scope="row">%set_default_role [role mentions]</td>
+        <td>Set default role(s) to be assigned to new members (Admins Only)</td>
+      </tr>
+      <tr>
+        <td scope="row">%vote</td>
+        <td>Brings up the vote page. If you enjoy this bot, please don't forget to vote!</td>
+      </tr>
+      <tr>
+        <td scope="row">%invite</td>
+        <td>Brings up the invitation link.</td>
+      </tr>
+      <tr>
+        <td scope="row">%servercount</td>
+        <td>Shows how many servers the bot is in.</td>
+      </tr>
+      <tr>
+        <td scope="row">%help [command]</td>
+        <td>View this help message, or view specific command help</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<!--      END     --->
 
 
 <!--                                              MODAL                                                          -->
@@ -70,7 +157,18 @@
 </body>
 
 
-<footer>
-<!--  <p class="text-muted">Designed by <span class="text-light">Francis #4444</span></p>-->
-</footer>
+<!--<footer class="footer mt-auto py-3 bg-secondary">
+  <div class="container border border-danger text-center text-white-50">
+    <div class="text-light">
+      <span>Members</span>
+    </div>
+    <div>
+      <span>Member One</span>
+    </div>
+    <div>
+      <span>Member Two</span>
+    </div>
+  </div>
+  &lt;!&ndash;  <p class="text-muted">Designed by <span class="text-light">Francis #4444</span></p>&ndash;&gt;
+</footer>-->
 </html>
