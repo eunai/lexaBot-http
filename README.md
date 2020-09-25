@@ -9,7 +9,7 @@
     <h1 align="center">👨‍💻</h1>
   </a>
 
-  <h3 align="center">Lexa Bot Website</h3>
+  <h3 align="center">Lexa Bot Website v2</h3>
 
   <h4 align="center">Project dedicated to Lexa Bot for Discord</h4>
 
