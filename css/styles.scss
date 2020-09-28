@@ -1,0 +1,55 @@
+.dropdown-menu, .dropdown-menu a {
+  background-color: #333940;
+  color: white;
+}
+
+.dropdown-menu a:hover {
+  background-color: #535d67;
+  color: white;
+}
+
+
+//                                              Color Page
+#color-page {
+  background: rgb(0,96,150);
+  background: linear-gradient(0deg, rgba(0,96,150,1) 0%, rgba(12,84,96,1) 100%);
+}
+
+.jumbo-bg {
+  background-color: rgba(113, 123, 133, 0.5);
+}
+
+//Features - Fade-in
+.fade-in {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 1s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-in-2 {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

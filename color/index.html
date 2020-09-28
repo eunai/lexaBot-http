@@ -5,15 +5,136 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Title</title>
 
-  <link rel="stylesheet" href="src/css/bootstrap.css">
-  <script src="src/js/bootstrap.bundle.js"></script>
-  <script src="index.js"></script>
-  <link rel="stylesheet" href="../css/index.css">
-
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <script src="../js/bootstrap.bundle.js"></script>
+  <link rel="stylesheet" href="../css/styles.css">
+  <script src="../index.js"></script>
 </head>
 
-<body id="color-page">
-<p class="display-4">Color Stuff Here</p>
-<a href="index.html">Return to Homepage</a>
+<body id="color-page" class="vh-100">
+<!--                                              NAVIGATION / LINKS                                              -->
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a href="#" class="navbar-brand">
+      <img src="../img/lexa-logo.gif" alt="" style="width: 3rem; height: 3rem;">
+      Lexa
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+        <a href="#discord-invite-modal" class="nav-link" data-toggle="modal">Invite</a>
+        <a href="#" class="nav-link disabled" aria-disabled="true">About</a>
+        <div class="nav-item dropdown">
+          <div class="nav-link dropdown-toggle" id="navbarDropdown-features" role="button" data-toggle="dropdown" aria-expanded="false">Features</div>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a href="#" class="dropdown-item active" id="active-color">Color</a>
+            <a href="#" class="dropdown-item disabled">Feature #2</a>
+            <a href="#" class="dropdown-item disabled">Feature #3</a>
+          </div>
+        </div>
+        <!--        <a href="https://discord.gg/bNEmTVQ/" class="nav-link" aria-disabled="true">Support</a>-->
+
+        <!--          DROPDOWN          -->
+        <div class="nav-item dropdown">
+          <div class="nav-link dropdown-toggle" href="#" id="navbarDropdown-support" role="button" data-toggle="dropdown" aria-expanded="false">Support</div>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="https://discord.gg/bNEmTVQ/">Discord Support Server</a>
+            <!--            <hr class="dropdown-divider">-->
+            <a class="dropdown-item" href="https://top.gg/bot/594323388705538069/">Top.gg</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+<!--                                              MAIN BODY                                              -->
+<div class="jumbo-bg p-5 rounded-lg m-3 mb-5 fade-in shadow" style="min-height: 250px; max-height: 275px;">
+  <h1 class="display-4 text-center">Color</h1>
+  <hr class="my-4">
+  <p class="lead text-left "></p>
+  <!--  <p> Lexa color bot was written in Python and still being worked on. You're able to limit who can use the bot by setting a designated role.</p>-->
+  <p class="text-muted text-black-50 pb-5">The color feature allows you to configure your personal color for Discord</p>
+</div>
+
+<div class="col pt-5 fade-in">
+  <div class="bg-dark text-light m-auto" style="min-width: 300px; max-width: 1000px; min-height: 350px; ">
+
+    <table class="table table-striped table-dark table-hover table-bordered table-rsm font-weight-lighter">
+      <caption class="table-dark text-center pb-3" id="discord-bot-topgg">
+        <a href="https://top.gg/bot/594323388705538069"><img src="https://top.gg/api/widget/status/594323388705538069.svg" alt="Lexa Bot Status"></a>
+        <a href="https://top.gg/bot/594323388705538069"><img src="https://top.gg/api/widget/servers/594323388705538069.svg?noavatar=true" alt="Servers using Lexa"></a>
+        <a href="https://top.gg/bot/594323388705538069"><img src="https://top.gg/api/widget/owner/594323388705538069.svg?noavatar=true" alt="Owner of Lexa bot"></a>
+      </caption>
+      <thead>
+      <th scope="col">Command</th>
+      <th scope="col">Description</th>
+      </thead>
+      <tbody>
+      <tr>
+        <td scope="row">%change [hexcode]</td>
+        <td>Changes to random color. Provide hex color code OR color name for specific color.</td>
+      </tr>
+      <tr>
+        <td scope="row">%remove</td>
+        <td>Removes your color role, if you have one</td>
+      </tr>
+      <tr>
+        <td scope="row">%prefix [prefix]</td>
+        <td>Changes this servers command prefix (Admins Only)</td>
+      </tr>
+      <tr>
+        <td scope="row">%set_channel [channel mention]</td>
+        <td>Set channel to listen to commands in. (set to None to reset)</td>
+      </tr>
+      <tr>
+        <td scope="row">%set_default_role [role mentions]</td>
+        <td>Set default role(s) to be assigned to new members (Admins Only)</td>
+      </tr>
+      <tr>
+        <td scope="row">%vote</td>
+        <td>Brings up the vote page. If you enjoy this bot, please don't forget to vote!</td>
+      </tr>
+      <tr>
+        <td scope="row">%invite</td>
+        <td>Brings up the invitation link.</td>
+      </tr>
+      <tr>
+        <td scope="row">%servercount</td>
+        <td>Shows how many servers the bot is in.</td>
+      </tr>
+      <tr>
+        <td scope="row">%help [command]</td>
+        <td>View this help message, or view specific command help</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+<!--                                              MODAL                                                          -->
+<div class="modal fade" id="discord-invite-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="lead">A new and improved revision of the bot is currently in development</p>
+        <p>(Backwards compatible with current version)</p>
+      </div>
+      <div class="modal-footer">
+        <a href="https://discord.com/oauth2/authorize?client_id=594323388705538069&scope=bot&permissions=8?" class="btn btn-secondary">Continue</a>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 </html>
