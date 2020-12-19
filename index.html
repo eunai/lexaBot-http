@@ -120,32 +120,40 @@
           </thead>
           <tbody>
           <tr>
-            <td scope="row">%change [hexcode]</td>
-            <td>Changes to random color. Provide hex color code OR color name for specific color.</td>
+            <td scope="row">%color set [hexcode]</td>
+            <td>Changes color to provided hex color code OR valid color name. (Leave empty for random)</td>
           </tr>
           <tr>
-            <td scope="row">%remove</td>
+            <td scope="row">%color remove</td>
             <td>Removes your color role, if you have one</td>
           </tr>
-          <tr>
-            <td scope="row">%prefix [prefix]</td>
-            <td>Changes this servers command prefix (Admins Only)</td>
+		  <tr>
+            <td scope="row">%color_name set [new role name]</td>
+            <td>Changes your color roles name.</td>
           </tr>
           <tr>
-            <td scope="row">%set_channel [channel mention]</td>
-            <td>Set channel to listen to commands in. (set to None to reset)</td>
-          </tr>  
-          <tr>
-            <td scope="row">%role_required [role mention]</td>
-            <td>Set the role required to use this bot. (set to None to reset)</td>
+            <td scope="row">%prefix set [prefix]</td>
+            <td>Changes command prefix (Admins Only)</td>
           </tr>
           <tr>
-            <td scope="row">%top_role [role mention]</td>
+            <td scope="row">%channels add [#channel_mention]</td>
+            <td>Adds channels to allowed channel list.</td>
+          </tr>
+		  <tr>
+			<td scope="row">%channels remove [#channel_mention]</td>
+			<td>Removed channels from allowed channel list.</td>
+		  </tr>
+          <tr>
+            <td scope="row">%perms add_roles [@role_mention]</td>
+            <td>Adds a role to the required role list.td>
+          </tr>
+		  <tr>
+            <td scope="row">%perms remove_roles [@role_mention]</td>
+            <td>Removes a role to the required role list.</td>
+          </tr>
+          <tr>
+            <td scope="row">%top_role set [@role_mention]</td>
             <td>Set the role to create new color roles beneath. If not set, new roles will always be created beneath the bots highest role. (set to None to reset)</td>
-          </tr>
-          <tr>
-            <td scope="row">%set_default_role [role mentions]</td>
-            <td>Set default role(s) to be assigned to new members (Admins Only)</td>
           </tr>
           <tr>
             <td scope="row">%vote</td>
@@ -169,7 +177,6 @@
     </div>
   </div>
 </div>
-
 </body>
 <!-- Last Updated 2020-09-19 -->
 </html>
